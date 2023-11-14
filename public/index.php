@@ -1,4 +1,4 @@
-<?php require_once("../php4/includes/default.inc.php") ?>
+<?php require_once("../php/includes/default.inc.php") ?>
 <!DOCTYPE html>
 <html long="en" dir="ltr">
     <head>
@@ -8,10 +8,10 @@
     </head>
     <body style="">
         <?php
+           $app = new \mvc\App();
+           echo $app;
 
-
-            $test = new Test();
-            echo $test;
+           
         ?>
     </body>
 </html>
